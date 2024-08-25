@@ -1,0 +1,57 @@
+html, body {
+    max-width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f5f6f9;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.brand-logo__list, .service-offered__list,
+.tyres-filter__list, .tyre__list, .business-right__gallery--list,
+.business-reviews__list {
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.card-body img {
+    bottom: -43px;
+    width: 180px;
+    right: -50px;
+    z-index: 2;
+    position: absolute;
+}
+
+/* Ask Question Section */
+
+.ask-question__section {
+    background-color: #CED7FF;
+}
+
+.ask-question__wrap {
+    background-image: url('https://img.freepik.com/free-vector/flat-illustration-person-shrugging_23-2149335161.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+}
+
+/* For Large Device Responsive */
+
+@media(min-width: 992px) {
+    .page-width {
+        max-width: 1500px;
+    }
+    .tyre__list {
+        overflow-x: hidden;
+        white-space: wrap;
+        flex-wrap: wrap;
+    }
+}
