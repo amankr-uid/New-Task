@@ -47,7 +47,7 @@ ul, li {
 
 @media(min-width: 992px) {
     .page-width {
-        max-width: 1500px;
+        max-width: 1400px;
     }
     .tyre__list {
         overflow-x: hidden;
